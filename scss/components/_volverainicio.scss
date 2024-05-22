@@ -1,0 +1,19 @@
+.enlace-amarillo {
+    display: block;
+    text-align: center;
+    background-color: rgb(190, 190, 19);
+    border-radius: 5px;
+    width: 100px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    padding: 15px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black
+    
+   }
+
+.enlace-amarillo:hover {
+    background-color: blue;
+}
