@@ -17,7 +17,7 @@ header nav ul li {
 header nav ul li a {
   text-decoration: none;
   color: rgb(190, 190, 19);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica;
   padding-left: 10px;
 }
 header nav ul li a:hover {
@@ -33,7 +33,7 @@ header div {
 header div a {
   color: rgb(190, 190, 19);
   text-decoration: none;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica;
 }
 header div a:hover {
   color: purple;
@@ -54,7 +54,8 @@ header .logo {
 }
 
 body {
-  background-color: black;
+  background: rgb(113, 115, 122);
+  background: radial-gradient(circle, rgb(113, 115, 122) 1%, rgb(93, 92, 59) 5%, rgb(59, 78, 130) 45%, rgb(10, 10, 10) 100%);
 }
 
 * p {
@@ -101,6 +102,8 @@ main section h2 {
   text-align: center;
 }
 main section h4 {
+  padding-bottom: 10px;
+  padding-top: 10px;
   color: rgb(195, 187, 34);
   font-family: Arial, Helvetica;
 }
@@ -184,7 +187,7 @@ main section .contacto {
   padding-bottom: 20px;
 }
 main section p {
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 .enlace-amarillo, .enlace-amarillo-extend {
@@ -198,12 +201,12 @@ main section p {
   margin-bottom: 50px;
   padding: 15px;
   text-decoration: none;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica;
   color: black;
 }
 
 .enlace-amarillo:hover, .enlace-amarillo-extend:hover {
-  background-color: blue;
+  background-color: grey;
 }
 
 @media screen and (max-width: 768px) {
@@ -263,7 +266,7 @@ main section p {
   color: rgb(190, 190, 19);
   text-align: center;
   font-size: 25px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica;
 }
 
 .gridcontainer {
@@ -324,7 +327,7 @@ main section p {
   bottom: 70px;
 }
 .grid-item3 p {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica;
   text-align: center;
   margin-top: 0px;
   margin-bottom: 5px;
@@ -336,7 +339,7 @@ main section p {
 .textoevolucionestelar p {
   text-align: center;
   color: rgb(190, 190, 19);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica;
 }
 
 .tituloimagen {
