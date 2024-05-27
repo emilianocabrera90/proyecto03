@@ -1,3 +1,6 @@
+@import "../utilities/variables.scss";
+
+
 main{
     section{
         h1{
@@ -13,7 +16,7 @@ main{
             color: white;
             font-size: 25px;
             margin-bottom: 30px;
-            font-family: Arial, Helvetica, sans-serif;
+            font-family: $fuente;
             padding: 20px;
             text-align: center;
 
@@ -23,13 +26,13 @@ main{
     section{
         h4{
             color: rgb(195, 187, 34);;
-            font-family: Arial, Helvetica, sans-serif;
+            font-family: $fuente;
 
         }
         .subtitulos{
             p{
                 color: rgb(195, 187, 34);
-                font-family: Arial, Helvetica, sans-serif;
+                font-family: $fuente;
 
             }
 
@@ -43,7 +46,7 @@ main{
         ol{
             li{
                 color: beige;
-                font-family: Arial, Helvetica, sans-serif;
+                font-family: $fuente;
                 padding: 5px;
 
             }
@@ -51,7 +54,7 @@ main{
         ul{
             li{
                 color: beige;
-                font-family: Arial, Helvetica, sans-serif;
+                font-family: $fuente;
                 padding: 5px;
 
             }
