@@ -80,6 +80,10 @@ a:visited {
   color: blue;
 }
 
+main {
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
 main section h1 {
   color: rgb(195, 187, 34);
   text-decoration: underline;
@@ -183,7 +187,7 @@ main section p {
   margin-top: 20px;
 }
 
-.enlace-amarillo {
+.enlace-amarillo, .enlace-amarillo-extend {
   display: block;
   text-align: center;
   background-color: rgb(190, 190, 19);
@@ -198,7 +202,7 @@ main section p {
   color: black;
 }
 
-.enlace-amarillo:hover {
+.enlace-amarillo:hover, .enlace-amarillo-extend:hover {
   background-color: blue;
 }
 
@@ -351,6 +355,18 @@ main section p {
 .tituloimagen .faseroja3 {
   width: 500px;
   height: 500px;
+}
+
+.primermixin {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  text-align: center;
+}
+
+.segundomixin {
+  color: white;
+  font-family: "Arial";
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */
